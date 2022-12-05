@@ -1,0 +1,29 @@
+
+section.events {
+    .event-item {
+        .event-featured-image {
+            background-color: var(--bs-info);
+        }
+        .date {
+            span {
+                margin-right: 5px;
+                margin-bottom: 2px;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: .3s;
+                color: var(--bs-primary);
+                background-color: var(--bs-primary) !important;
+                border: 1px solid var(--bs-info);
+                h3 {
+                    font-weight: 900 !important;
+                    color: var(--bs-primary) !important;
+                }
+            }
+        }
+    }
+}
+
+
